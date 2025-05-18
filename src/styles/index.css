@@ -1,11 +1,65 @@
-/* 
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+body, h1, h2, h3, h4, h5, h6  {
 
-*/
+    color: #e8dbdb;
+  }
+  body{
+    background-color: #fff;
+  }
+
+.card-box{
+    background-color: #f4f3f3;
+    margin: 3%;
+}
+
+
+.card-box-space {
+    margin-left: 40%;
+    width: 400px;
+    background-color: #f4f3f3;
+    padding: 5px;
+}
+
+ul{
+    padding-left: 0px;   
+}
+li {
+    background-color: #f4f3f3;
+    list-style: none;
+    color: darkslategray;
+
+}
+small{
+    text-align: right;
+    left:0px
+}
+
+span{
+ opacity: 0.5;
+}
+input.d-flex {
+    background-color: #f4f3f3;
+    color: darkslategray;
+    border: none;
+    }
+
+input:focus {
+        outline: none;
+        border: none;
+    }
+
+.stack{
+    content: "";
+    height: 2px;
+    width: 98%;
+    margin-left: 1%;
+}
+.stack-2{
+    content: "";
+    height: 2px;
+    width: 96%;
+    margin-left: 2%;
+}
+small:hover{
+    
+}
